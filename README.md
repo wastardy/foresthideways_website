@@ -9,6 +9,7 @@ view of the website on PC
 ![image](https://github.com/user-attachments/assets/9babbec3-6caf-44df-870d-6ea2c90a01ca)
 
 view on the Iphone SE
+
 ![image](https://github.com/user-attachments/assets/432f97d1-855d-4a9b-9819-fd0e17694dcb)
 ![image](https://github.com/user-attachments/assets/bb0fc04a-bc81-4513-bf6c-24ba8a5d2436)
 ![image](https://github.com/user-attachments/assets/7298f7d8-1074-4378-ac7c-6864610fb1b1)
