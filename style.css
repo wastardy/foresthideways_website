@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logo {
+    width: 40px;
+    filter: brightness(0.65);
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-custom {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    height: 50px;
+    background-color: #202f24;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-custom a {
+    color: #e3e3e3;
+    text-decoration: none;       
+}
+
+.navbar-custom .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.navbar-custom .link:hover {
+    background-color: #2d4132;
+}
+
+.container,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.img-container {
+    min-height: 500px; 
+    overflow: hidden;
+    position: relative;
+    /* background-color: #257937 */
+}
+
+.nav-link {
+    color: #e3e3e3;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.nav-link.active {
+    color: #19241c !important;
+}
+
+.nav-link.active:hover {
+    color: #1f2c23 !important;
+}
+
+.form-container {
+    min-height: 500px; 
+    background-color: #2e4e35;
+}
+
+.form-title::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 3px solid #e3e3e3;
+    border-radius: 2px;
+}
+
+.input-container {
+    width: 95%;
+}
+
+.input-field {
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0;
+    outline: none;
+}
+
+.input-field:focus {
+    outline: none; /* Вимкнення стандартного контуру при фокусі */
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none; /* Вимкнення стандартного контуру при фокусі */
+    box-shadow: none;
+}
+
+.button {
+    background-color: #201f1f;
+    color: #e3e3e3;
+    border-radius: 0;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #e3e3e3;
+    color: #2e4e35;
+}
+
+.custom-line {
+    height: 1px; 
+    width: 100%; 
+    border-bottom: 2px solid #201f1f9e;
+}
+
+.first-row-card {
+    min-height: 220px;
+    background-color: #fff;
+}
+
+.sound-label {
+    color: #1c652c
+}
+
+.card-header, .card-body {
+    width: 100%;
+}
+
+.custom-shadow {
+    box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.custom-shadow:hover {
+    box-shadow: 8px 8px 12px rgba(38, 38, 38, 0.35);
+}
+
+.second-row-card {
+    min-height: 500px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(38, 38, 38, 0.2);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.second-row-card:hover {
+    box-shadow: 8px 8px 12px rgba(38, 38, 38, 0.35);
+}
+
+.card-img-top {
+    height: 280px; /* Задайте бажану висоту */
+    object-fit: cover; /* Забезпечує пропорційне масштабування */
+    width: 100%;
+}
+
+.card-price, .review {
+    color: #1c652c;
+}
+
+.third-row-card {
+    min-height: 250px;
+}
+
+.card-text {
+    height: 100%;
+}
+
+.pagination .page-link {
+    color: #1c652c; 
+    outline: none; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: darkgray; 
+}
+
+.pagination .page-link:hover {
+    background-color: #2e4e35; 
+    color: #e3e3e3;
+    border: none;
+    transform: none;
+}
+
+.pagination .page-link:active {
+    background-color: #1c652c;
+    color: #e3e3e3;
+    border: none; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #1c652c; 
+    color: #e3e3e3; 
+    border: none; 
+}
+
+.pagination .page-item.active .page-link:hover {
+    background-color: #2e4e35; 
+    color: #e3e3e3; 
+    transform: none;
+}
+
+.item-hover {
+    transition: all 0.1s ease-in-out;
+}
+
+.item-hover:hover {
+    background-color: #e6e8ea;
+}
